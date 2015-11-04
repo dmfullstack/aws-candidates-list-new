@@ -1,0 +1,94 @@
+body,html {
+  width:100%;
+  height:100%;
+  background:linear-gradient(-45deg,#3f3c52 0,#161518 100%);
+}
+.navbar {
+  height:60px;
+  background: transparent;
+  border-radius: 0;
+  border-color:transparent;
+}
+
+/*
+==Banners
+*/
+.banner {
+  background: white;
+  font-weight: 400;
+  font-size: 40px;
+  background-color: white;
+  height:100%;
+  text-align: center;
+  display: flex-box;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.banner-side {
+  height: 100%;
+  text-align: left;
+  position: relative;
+}
+
+.banner-showcase,.banner-message-centered {
+  width: 100%;
+  margin: auto;
+  position:absolute;
+  font-family: Helvetica;
+}
+
+.banner-message-centered {
+  height:15%;
+  top:30%;
+}
+
+.banner-showcase {
+  font-size: 18px;
+  color:#EFECEC;
+  height:90%;
+  top:5%;
+  left: 0px;
+  padding: 10px 25px;
+  overflow-y: hidden;
+}
+
+.banner-showcase ul {
+  padding-left: 0px !important;
+  overflow-x:hidden;
+  line-height: 30px;
+}
+
+.banner-showcase ul li {
+  list-style: none;
+  text-align: left;
+  padding-left: 15px;
+  border-left: 4px solid #3f3c52;
+}
+
+#logo {
+  margin-bottom: 30px;
+}
+
+.banner-showcase ul li a{
+    text-decoration: none;
+    color:#CAC4C4;
+}
+
+.banner-showcase ul li:hover {
+    border-left: 4px solid whitesmoke;
+}
+
+.full-height {
+  min-height: 100%;
+  height:100%;
+}
+
+/*
+==Custom fonts
+*/
+@font-face {
+  font-family: Helvetica;
+  src: url("../fonts/HelveticaNeue-Light.otf");
+}
